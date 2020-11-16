@@ -18,7 +18,16 @@ export default function Home() {
       <svg className="icon" viewBox={shopIcon.viewBox}>
         <use xlinkHref={`#${shopIcon.id}`} />
       </svg>
-      <svg className="icon3" viewBox={shoppingBag.viewBox}>
+      <svg className="icon is-small" viewBox={shoppingBag.viewBox}>
+        <use xlinkHref={`#${shoppingBag.id}`} />
+      </svg>
+      <svg className="icon" viewBox={shoppingBag.viewBox}>
+        <use xlinkHref={`#${shoppingBag.id}`} />
+      </svg>
+      <svg className="icon is-medium" viewBox={shoppingBag.viewBox}>
+        <use xlinkHref={`#${shoppingBag.id}`} />
+      </svg>
+      <svg className="icon is-large" viewBox={shoppingBag.viewBox}>
         <use xlinkHref={`#${shoppingBag.id}`} />
       </svg>
     </>
